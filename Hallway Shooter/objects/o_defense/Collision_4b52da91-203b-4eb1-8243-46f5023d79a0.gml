@@ -1,0 +1,23 @@
+/// @description Insert description here
+// You can write your code in this editor
+instance_create_depth(x,y,1,o_bloodpart)
+//instance_create_depth(x,y,150,o_popup)
+
+
+//target = instance_nearest(x,y,o_popup);
+//target.text = o_player.atk;
+
+for (i = 0; i < random_range(5,50); i++) {
+instance_create_depth(x,y,-10000,o_bloodpart) }
+
+
+
+with (other) {
+	hp -= 5;
+}
+
+audio_play_sound(s_fireimpact,1,false)
+instance_destroy();
+
+
+
